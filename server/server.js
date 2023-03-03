@@ -19,7 +19,7 @@ app.use(cookieParser("123abc"));
 
 app.use(
   cors({
-    origin: ["http://localhost:3000"],
+    origin: ["http://localhost:3000", "https://ahmadsle22.onrender.com"],
     credentials: true,
   })
 );
